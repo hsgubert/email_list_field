@@ -28,12 +28,12 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'rails', '>= 3.2', '< 5.0'
+  spec.add_runtime_dependency 'rails', '>= 3.2', '< 6.0'
   spec.add_runtime_dependency 'taggle', '0.1.2'
-  spec.add_runtime_dependency 'jquery-rails', '~>4'
-  spec.add_runtime_dependency 'jquery-ui-rails', '~>5.0'
+  spec.add_runtime_dependency 'jquery-rails', '~> 4'
+  spec.add_runtime_dependency 'jquery-ui-rails', '~> 5.0'
 
-  spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", "~> 1.17"
+  spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 end
